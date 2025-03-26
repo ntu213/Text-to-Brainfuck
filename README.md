@@ -76,4 +76,6 @@ $> cat result.txt
 This script should translate **"Hi!"** to Brainfuck and write the result in **result.txt**.
 
 
+##### You can test your Brainfuck generated sentences with my [Brainfuck to Text](github.com/ntu213/Brainfuck-to-Text) project!
+
 
