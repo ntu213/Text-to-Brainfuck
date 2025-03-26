@@ -44,7 +44,7 @@ def main():
 
 	# src = "A"
 
-	res = convert(src + '\n')
+	res = convert(src)
 
 	print(res, file=dest)
 
