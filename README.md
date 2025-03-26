@@ -58,3 +58,22 @@ $> python3 src/converter.py hi.txt
 This script should translate **"Hi!"** to Brainfuck.
 
 
+
+#### Input & Output Files
+
+```bash
+$> python3 src/converter.py [InputFilePath] [OutputFilePath]
+```
+
+Write your **file paths** as **arguments** of the the script. If the file does exists, then the script should **find**, **open** and **read** the file, **translate** it, and finally **create** the output file and **write** the result in it.
+
+Example:
+```bash
+$> echo Hi! > hi.txt
+$> python3 src/converter.py hi.txt result.txt
+$> cat result.txt
+```
+This script should translate **"Hi!"** to Brainfuck and write the result in **result.txt**.
+
+
+
